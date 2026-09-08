@@ -33,7 +33,7 @@ llm = ChatOpenAI(
     temperature=0
 )
 
-result = llm.invoke("What is Ollama?")
+result = llm.invoke("What is the Capital of INDIA??")
 
 print(result.content)
 
@@ -52,3 +52,6 @@ print(result.content)
 # gpt-oss:20b
 #       ↓
 # Answer
+
+
+# Answer:  The capital of India is **New Delhi**.

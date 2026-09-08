@@ -1,4 +1,4 @@
-#  #  for OPEN AI 
+#  #  for OPEN AI  , this code is for API key
 
 # from langchain_openai import OpenAI
 # from dotenv import load_dotenv

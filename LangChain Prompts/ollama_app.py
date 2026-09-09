@@ -15,36 +15,36 @@ if question:
 
     st.write(result.content)
     
-'''   
-to run:  streamlit run "LangChain Prompts/ollama_app.py"  
-syntax:  streamlit run "folder_name/file_name.py"                                    
-    ┌─────────────────────────────────────┐
-    │          Ollama Chatbot             │
-    │                                     │
-    │ Ask something:                      │
-    │ ┌─────────────────────────────────┐ │
-    │ │ What is the capital of India?   │ │
-    │ └─────────────────────────────────┘ │
-    │                                     │
-    │ New Delhi                           │
-    └─────────────────────────────────────┘
+# '''   
+# to run:  streamlit run "LangChain Prompts/ollama_app.py"  
+# syntax:  streamlit run "folder_name/file_name.py"                                    
+#     ┌─────────────────────────────────────┐
+#     │          Ollama Chatbot             │
+#     │                                     │
+#     │ Ask something:                      │
+#     │ ┌─────────────────────────────────┐ │
+#     │ │ What is the capital of India?   │ │
+#     │ └─────────────────────────────────┘ │
+#     │                                     │
+#     │ New Delhi                           │
+#     └─────────────────────────────────────┘
 
-The overall architecture
+# The overall architecture
 
-             Streamlit UI
-                  ↓
-        User enters question
-                  ↓
-            LangChain
-                  ↓
-             ChatOllama
-                  ↓
-              Ollama
-                  ↓
-             Llama 3
-                  ↓
-             AI Response
-                  ↓
-           Streamlit UI
+#              Streamlit UI
+#                   ↓
+#         User enters question
+#                   ↓
+#             LangChain
+#                   ↓
+#              ChatOllama
+#                   ↓
+#               Ollama
+#                   ↓
+#              Llama 3
+#                   ↓
+#              AI Response
+#                   ↓
+#            Streamlit UI
 
-'''
+# '''
